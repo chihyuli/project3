@@ -1,0 +1,44 @@
+section.container {
+  padding: 5rem 12rem;
+}
+section.container .textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section.container .textBox .card {
+  box-shadow: #cedae6 2px 2px 5px 3px;
+  margin-bottom: 2rem;
+}
+section.container .textBox .card h3 {
+  font-size: 22px;
+  margin-bottom: 1rem;
+  padding: 5px 12px 5px 12px;
+  background-color: #dbdfe4;
+}
+section.container .textBox .card p {
+  padding: 0 12px 1rem 12px;
+}
+section.container .textBox .card p.smallText {
+  color: #999;
+  font-size: 14px;
+}
+section.container .textBox .card.pay {
+  box-shadow: #cedae6 2px 2px 5px 3px;
+  margin-bottom: 2rem;
+}
+section.container .textBox .card.pay ul {
+  list-style-type: none;
+}
+section.container .textBox .card.pay ul li {
+  padding: 0 12px 0.8rem 12px;
+}
+section.container .textBox .card.pay ul li span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 950px) {
+  section.container {
+    padding: 5rem;
+  }
+}/*# sourceMappingURL=qa.css.map */

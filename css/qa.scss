@@ -1,0 +1,56 @@
+section.container {
+    padding: 5rem  12rem;
+
+    .textBox {
+        // height: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .card {
+            // background-color: #2062a8;
+            box-shadow: #cedae6 2px 2px 5px 3px;
+            margin-bottom: 2rem;
+            h3 {
+                font-size: 22px;
+                margin-bottom: 1rem;
+                padding: 5px 12px 5px 12px;
+                background-color: #dbdfe4;
+            }
+
+            p {
+                padding: 0 12px 1rem 12px;
+            }
+
+            p.smallText {
+                color: #999;
+                font-size: 14px;
+            }
+        }
+
+        .card.pay {
+            box-shadow: #cedae6 2px 2px 5px 3px;
+            margin-bottom: 2rem;
+            ul {
+                list-style-type: none;
+                // background-color: #2062a8;
+                
+                
+                li {
+                    padding: 0 12px .8rem 12px;
+                    span{
+                        font-weight: bold;
+                        
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:950px) {
+    section.container {
+        padding: 5rem ;
+    }
+}

@@ -1,0 +1,179 @@
+section.products {
+  display: flex;
+  padding: 3rem 12rem;
+}
+section.products section.nav {
+  width: 60%;
+}
+section.products section.nav h2 {
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  color: #2062a8;
+}
+section.products section.nav ul {
+  list-style-type: none;
+}
+section.products section.nav ul li ul.navClass {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+section.products section.nav ul li ul.navClass h3 {
+  color: #2062a8;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+section.products section.nav ul li ul.navClass h3 a {
+  text-decoration: none;
+}
+section.products section.nav ul li ul.navClass h3 a::after {
+  content: url(../img/blue.png);
+}
+section.products section.nav ul li ul.navClass li {
+  margin-bottom: 0.5rem;
+}
+section.products section.nav ul li ul.navClass li a {
+  text-decoration: none;
+  color: #000;
+}
+section.products section.nav ul li ul.navClass li a:hover {
+  color: #f8bb59;
+}
+section.products section.pro_con .new {
+  box-shadow: 0px 5px 5px 5px #e5e5e5;
+  background-color: #ede9e7;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+  text-align: center;
+}
+section.products section.pro_con .new p {
+  padding: 5rem;
+}
+section.products section.pro_con .new p a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #f3ad3c;
+  border-radius: 5px;
+  color: #fff;
+}
+section.products section.pro_con .new p a:hover {
+  background-color: #fff;
+  color: #f3ad3c;
+}
+section.products section.pro_con .new .newTop {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background-color: #f3ad3c;
+  padding: 1.5rem;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+}
+section.products section.pro_con .new .content {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section.products section.pro_con .new .content .proCard {
+  width: 20%;
+  margin: 0 1.5rem 3.5rem 0;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+section.products section.pro_con .new .content .proCard .albumCover {
+  overflow: hidden;
+}
+section.products section.pro_con .new .content .proCard .albumCover img {
+  width: 100%;
+}
+section.products section.pro_con .new .content .proCard .albumCover img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+section.products section.pro_con .new .content .proCard h4, section.products section.pro_con .new .content .proCard p {
+  padding: 10px;
+}
+section.products section.pro_con .pre {
+  box-shadow: 0px 5px 5px 5px #e5e5e5;
+  background-color: #ede9e7;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+  text-align: center;
+}
+section.products section.pro_con .pre p {
+  padding: 5rem;
+}
+section.products section.pro_con .pre p a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #f3ad3c;
+  border-radius: 5px;
+  color: #fff;
+}
+section.products section.pro_con .pre p a:hover {
+  background-color: #fff;
+  color: #f3ad3c;
+}
+section.products section.pro_con .pre h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background-color: #f3ad3c;
+  padding: 1.5rem;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+}
+section.products section.pro_con .pre .content {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section.products section.pro_con .pre .content .proCard {
+  width: 20%;
+  margin: 0 1.5rem 3.5rem 0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+section.products section.pro_con .pre .content .proCard .albumCover {
+  overflow: hidden;
+}
+section.products section.pro_con .pre .content .proCard .albumCover img {
+  width: 100%;
+}
+section.products section.pro_con .pre .content .proCard .albumCover img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+section.products section.pro_con .pre .content .proCard h4, section.products section.pro_con .pre .content .proCard p {
+  padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  section.products {
+    padding: 5rem;
+  }
+  section.products section.pro_con {
+    margin-left: 2rem;
+  }
+  section.products section.pro_con .new p {
+    padding: 2rem;
+  }
+  section.products section.pro_con .new p a {
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+  }
+  section.products section.pro_con .new .content .proCard {
+    margin: 0 0.8rem 1.5rem 0;
+  }
+  section.products section.pro_con .pre p {
+    padding: 2rem;
+  }
+  section.products section.pro_con .pre p a {
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+  }
+  section.products section.pro_con .pre .content .proCard {
+    margin: 0 0.8rem 1.5rem 0;
+  }
+}/*# sourceMappingURL=product.css.map */
