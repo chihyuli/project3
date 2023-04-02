@@ -20,7 +20,6 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: #fff4c7;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 5;
@@ -31,8 +30,8 @@ header div.logo {
   margin: 0 1.5rem;
 }
 header div.logo img {
-  width: 6vw;
-  height: 6vw;
+  width: 5vw;
+  height: 5vw;
 }
 header div.logo h1 a {
   font-family: "Rowdies", cursive;
@@ -123,9 +122,9 @@ main section.second section.text {
 }
 main section.second section.text h2 {
   text-align: start;
-  -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
-  font-family: "Dela Gothic One", cursive;
+  writing-mode: vertical-lr;
+  font-family: "Mochiy Pop One", cursive;
+  font-weight: bolder;
   font-size: 32px;
   letter-spacing: 0.5rem;
   color: #2062a8;
@@ -138,8 +137,7 @@ main section.second section.text ul.menu {
   margin: 2.5rem 1rem;
 }
 main section.second section.text ul.menu li {
-  -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
   margin-bottom: 1rem;
   font-size: 20px;
   font-weight: 600;
@@ -162,10 +160,21 @@ main section.second section.cards div.card {
   width: 20%;
   margin: 0 1.5rem 1.5rem 0;
   padding: 10px;
+  border: #eee 1px solid;
 }
 main section.second section.cards div.card h4 {
   font-weight: bold;
   font-size: 18px;
+}
+main section.second section.cards div.card p {
+  margin: 1rem 0;
+}
+main section.second section.cards div.card p a {
+  text-decoration: none;
+  color: #000;
+}
+main section.second section.cards div.card p a:hover {
+  color: #f8bb59;
 }
 main section.second section.cards div.card div.albumCover {
   overflow: hidden;
@@ -224,8 +233,8 @@ footer div.logo {
   margin: 0 1.5rem;
 }
 footer div.logo img {
-  width: 6vw;
-  height: 6vw;
+  width: 5vw;
+  height: 5vw;
 }
 footer div.logo p {
   color: #2062a8;
@@ -249,7 +258,7 @@ footer section.link a img {
   height: 3vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
   header div.logo img {
     width: 8vw;
     height: 8vw;
@@ -285,7 +294,7 @@ footer section.link a img {
     padding: 5rem;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   header {
     align-items: center;
   }
@@ -341,7 +350,7 @@ footer section.link a img {
   }
 }
 section.login {
-  height: 82vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -75,7 +75,7 @@ section.products{
                 color: #fff;
             }
             .content{
-                padding: 3rem;
+                padding: 3rem 3rem 0 3rem;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-around;
@@ -84,6 +84,7 @@ section.products{
                     margin: 0 1.5rem 3.5rem 0;
                     background-color: #FFF;
                     border-radius: 5px;
+                    text-align: left;
                     .albumCover{
                         overflow: hidden;
                         img {
@@ -135,7 +136,7 @@ section.products{
                 color: #fff;
             }
             .content{
-                padding: 3rem;
+                padding: 3rem 3rem 0 3rem;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-around;
@@ -144,6 +145,7 @@ section.products{
                     margin: 0 1.5rem 3.5rem 0;
                     background-color: #fff;
                     border-radius: 5px;
+                    text-align: left;
                     .albumCover{
                         overflow: hidden;
                         img {

@@ -32,8 +32,8 @@ header {
         margin: 0 1.5rem;
 
         img {
-            width: 6vw;
-            height: 6vw;
+            width: 5vw;
+            height: 5vw;
         }
 
         h1 {
@@ -148,7 +148,8 @@ main {
             h2 {
                 text-align: start;
                 writing-mode: vertical-lr;
-                font-family: 'Dela Gothic One', cursive;
+                font-family: 'Mochiy Pop One', cursive;
+                font-weight: bolder;
                 font-size: 32px;
                 letter-spacing: .5rem;
                 color: #2062a8;
@@ -192,12 +193,22 @@ main {
                 width: 20%;
                 margin: 0 1.5rem 1.5rem 0;
                 padding: 10px;
+                border: #eee 1px solid;
 
                 h4 {
                     font-weight: bold;
                     font-size: 18px;
                 }
-
+                p{
+                    margin: 1rem 0;
+                }
+                p a{
+                    text-decoration: none;
+                    color: #000;
+                    &:hover{
+                        color: #f8bb59;
+                    }
+                }
                 div.albumCover {
                     overflow: hidden;
 
@@ -268,8 +279,8 @@ footer {
         margin: 0 1.5rem;
 
         img {
-            width: 6vw;
-            height: 6vw;
+            width: 5vw;
+            height: 5vw;
         }
 
         p {
@@ -302,7 +313,7 @@ footer {
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:992px) {
     header {
         div.logo {
             img {
@@ -362,7 +373,7 @@ footer {
 }
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
     header {
         align-items: center;
 
@@ -441,7 +452,7 @@ footer {
 
 
 section.login{
-    height: 82vh;
+    height: 80vh;
     // background-color: #bdddff;
     display: flex;
     flex-direction: column;
