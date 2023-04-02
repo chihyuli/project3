@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
     // font-family: 'Roboto Slab', serif;
     // border: 1px solid black;
 }
@@ -38,7 +39,8 @@ header {
 
         h1 {
             a {
-                font-family: 'Rowdies', cursive;
+                font-family: 'Mochiy Pop One', cursive;
+                font-weight: bold;
                 color: #2062a8;
                 font-size: 50px;
                 text-decoration: none;
@@ -67,7 +69,7 @@ header {
                 a {
                     text-decoration: none;
                     color: #2062a8;
-                    font-size: 18px;
+                    font-size: 25px;
                     display: block;
                     font-weight: 600;
                     padding: 8px;
@@ -197,10 +199,12 @@ main {
 
                 h4 {
                     font-weight: bold;
-                    font-size: 18px;
+                    font-size: 22px;
+                    margin-top: 1rem;
                 }
                 p{
                     margin: 1rem 0;
+                    font-size: 18px;
                 }
                 p a{
                     text-decoration: none;
@@ -285,7 +289,8 @@ footer {
 
         p {
             color: #2062a8;
-            font-size: 18px;
+            font-size: 22px;
+            font-weight: 600;
             margin-left: 1rem;
             line-height: 2rem;
         }

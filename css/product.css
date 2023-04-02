@@ -1,3 +1,7 @@
+* {
+  font-size: 20px;
+}
+
 section.products {
   display: flex;
   padding: 3rem 12rem;
@@ -68,6 +72,9 @@ section.products section.pro_con .new .newTop {
   border-radius: 20px 20px 0 0;
   color: #fff;
 }
+section.products section.pro_con .new .newTop h2 {
+  font-size: 30px;
+}
 section.products section.pro_con .new .content {
   padding: 3rem 3rem 0 3rem;
   display: flex;
@@ -123,6 +130,7 @@ section.products section.pro_con .pre h2 {
   padding: 1.5rem;
   border-radius: 20px 20px 0 0;
   color: #fff;
+  font-size: 30px;
 }
 section.products section.pro_con .pre .content {
   padding: 3rem 3rem 0 3rem;
@@ -152,6 +160,9 @@ section.products section.pro_con .pre .content .proCard h4, section.products sec
 }
 
 @media screen and (max-width: 1200px) {
+  * {
+    font-size: 18px;
+  }
   section.products {
     padding: 5rem;
   }
